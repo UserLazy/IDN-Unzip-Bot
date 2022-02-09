@@ -11,3 +11,4 @@ class Config(object):
     BOT_OWNER = int(os.environ.get("BOT_OWNER"))
     DOWNLOAD_LOCATION = f"{os.path.dirname(__file__)}/IDNCoderXRoot"
     TG_MAX_SIZE = 2040108421
+    CHUNK_SIZE = 1024 * 6
